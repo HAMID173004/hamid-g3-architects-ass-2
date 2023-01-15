@@ -47,6 +47,24 @@ nav>ul {
     height: 225px;
     margin: 62px auto;
 } */
+.con-h {
+    margin-top: 50px;
+}
+
+.h-name {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+ul li {
+
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.heading {
+    margin-top: 100px;
+}
 
 .heading-name {
     font-weight: 700;
@@ -88,7 +106,7 @@ h1,
 /* quick-list */
 
 .quick-list {
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     align-items: center;
 }
@@ -96,24 +114,25 @@ h1,
 .grid-pics {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
 }
 
-.grid-pic .team img {
+/* .grid-pic .team img {
     height: 56px;
     width: 56px;
-}
+} */
 
 .grid-pics .team img {
-    height: 220px;
-    width: 220px;
+    height: 250px;
+    width: 250px;
 }
 
 .grid-pics {
-    margin-left: 301px;
+    margin-left: 61px;
 }
 
 .features {
-    margin-left: 73px;
+    margin-left: 60px;
 }
 
 .fea-title {
@@ -140,21 +159,81 @@ h1,
 
 /* love-and-enjoy */
 .love-enjoy-pic {
-    width: 408px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    width: 80px;
     max-width: 100%;
-    height: 982px;
+    height: 682px;
 }
 
 .love-and-enjoy {
     display: flex;
-    margin-top: 200px;
+    gap: 25px;
+    margin-top: 100px;
+    margin-bottom: 400px;
     justify-content: center;
 }
 
 .experience {
-    justify-content: first baseline;
+    
     width: 242px;
     height: 150px;
     margin-top: auto;
     background: #FF900E;
+}
+
+.love-enjoy-title {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: justify;
+}
+
+.love-enjoy-discription {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.title-name {
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 400px;
+    text-align: justify;
+    
+}
+.title-details{
+
+}
+.some-facts .container{
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconess , .Sponspors{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    text-align: center;
+    margin: 20px;
+}
+@media only screen and (max-width:688px) {
+    .grid-pics {
+        grid-template-columns: repeat(1, 1fr);  
+}
+.grid-pics {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+.love-enjoy-pic {
+    grid-template-columns: repeat(1,1fr);
+}
+@media only screen and (min-width:669px) and (max-width:992px) {
+    
 }
