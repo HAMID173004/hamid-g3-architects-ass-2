@@ -4,7 +4,7 @@
     --primary-font: font-family: 'Work Sans', sans-serif;
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,7 +14,12 @@ body {
     background-color: var(--primary-background-color);
     font-family: var(--primary-font)
 }
-.container{
+
+/* .main-container{
+    margin-bottom: 100px;
+
+} */
+.container {
     padding: 0 25px;
     width: 100%;
     max-width: 1000px;
@@ -68,8 +73,9 @@ h1,
 }
 
 .banner-1 img {
-    width: 1440px;
-height: 700px;
+    margin-top: 60px;
+    width: 1000px;
+    height: 500px;
     /* width: 100%;
     
     
@@ -144,10 +150,11 @@ height: 700px;
     margin-top: 200px;
     justify-content: center;
 }
-.experience{
+
+.experience {
     justify-content: first baseline;
     width: 242px;
-height: 150px;
+    height: 150px;
     margin-top: auto;
-   background: #FF900E;
+    background: #FF900E;
 }
